@@ -1,6 +1,6 @@
 package com.mytube;
 
-public class XEmailService implements EmailService {
+public class XNotificationService implements NotificationService {
     @Override
     public void sendEmail(User user) {
         System.out.println("Notifying " + user.getEmail() + "...");
